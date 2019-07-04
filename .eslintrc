@@ -1,0 +1,31 @@
+{
+    "root": true,
+    "extends": ["standard", "plugin:prettier/recommended"],
+    "plugins": [
+        "html",
+        "react",
+        "flowtype"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "linebreak-style": [0 ,"error", "windows"],
+      "indent": ["error", 2],
+      "space-before-function-paren": 0,
+      "eol-last": 0,
+      "semi": 0,
+      "quotes": ["error", "double"],
+      "no-console": ["error",{ "allow":["log","warn"]}],
+      "arrow-parens": 0,
+      "no-new":0,
+      "no-unused-vars": 1,
+      "prettier/prettier": "error"
+    }
+}
